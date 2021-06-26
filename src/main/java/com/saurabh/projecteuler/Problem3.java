@@ -14,7 +14,7 @@ public class Problem3 {
     }
 
     private static long findLargestPrimeFactor(long n) {
-        long answer = 1;
+        long answer = -1;
         long maxValue = (long) Math.sqrt(n);
 
         while (n % 2 == 0){
